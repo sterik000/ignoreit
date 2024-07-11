@@ -1,3 +1,6 @@
-div {
-  color:#777
+@document url("https://httpbin.org")
+{
+  div, span {
+    color: green;
+  }
 }
